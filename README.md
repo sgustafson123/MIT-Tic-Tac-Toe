@@ -11,3 +11,8 @@ Using different colors
 Making the board larger with a background picture displayed
 Offering the game in multiple languages
 Changing the squares into a different shape
+
+##Larger improvements
+I would like to improve the game by having the color of the squares change to highlight the winner - either X or O.  Maybe this could be done by changing the state of the squares, or a conditional tied to the logic that determines the winner?
+
+It would also be fun to experiment with offering different symbols or languages or colors.  The user could click a button to select the language, a button for the symbol set, a button for color palette.  
