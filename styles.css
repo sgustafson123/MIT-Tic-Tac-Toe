@@ -1,0 +1,51 @@
+font {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+button {
+  background-color: #2946e7;
+  border: 6px solid #fbfcfb;
+  border-radius: 10px;
+}
+
+.game-board {
+  width: 600px;
+  height: 600px;
+  margin: 0 auto;
+  background-color: #e8fa44;
+  color: rgb(66, 28, 204);
+  border: 6px solid #eef0f1;
+  border-radius: 10px;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr;
+}
+
+.grid-row {
+  border: 6px solid #f3e303;
+  border-radius: 6px;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 4em;
+  display: grid;
+  grid-template-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  background-color: rgb(211, 243, 245);
+}
+
+.block {
+  background-color: rgb(187, 150, 248);
+  border: 6px solid rgb(206, 245, 250);
+  border-radius: 6px;
+  font-family: Helvetica;
+  font-weight: bold;
+  font-size: 20em;
+}
+
+.red {
+  color: rgb(174, 0, 255);
+}
+
+.white {
+  color: white;
+}
